@@ -16,7 +16,15 @@
 </head>
 
 <body>
-
+    <div class="container">
+        <div class="row">
+            @foreach($all_trains as $all_train)
+                
+                        {{ $all_train->azienda }}
+          
+            @endforeach 
+        </div>
+      </div>
 
 </body>
 
