@@ -23,6 +23,12 @@
                         {{ $all_train->azienda }}
           
             @endforeach 
+<br>
+            @foreach($trains_today as $train)
+               
+            {{ $train->azienda }}
+             
+        @endforeach 
         </div>
       </div>
 
